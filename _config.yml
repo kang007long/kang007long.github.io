@@ -1,4 +1,3 @@
 baseurl: www.jarvisk.com
 
 paginate: 10
-paginate_path: "page:num"
