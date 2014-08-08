@@ -83,19 +83,22 @@
 		<h4>
 		站内搜索
 		</h4>
-		<form action="https://www.google.com/search" method="get">
-		<div class="input-group">
-		<input type="text" name="q" class="form-control">
-		<input type="hidden" name="ie" value="UTF-8" />
-		<input type="hidden" name="sitesearch" value="www.jarvisk.com" />
-		<span class="input-group-btn">
-		<button class="btn btn-default" type="submit">
-		<span class="glyphicon glyphicon-search">
-		</span>
-		</button>
-		</span>
-		</div>
-		</form>
+		<!-- Baidu Search -->
+<form method="get" action="http://www.baidu.com/baidu">
+    <div style="background-color:white">
+        <img src="http://img.baidu.com/img/logo-137px.gif" border="0" alt="baidu" />
+        <input name="word" size="30" maxlength="100" value="html" />
+        <input type="submit" value="Baidu Search" />
+        <br />
+        <input name="tn" type="hidden" value="bds" />
+        <input name="cl" type="hidden" value="3" />
+        <input name="si" type="hidden" value="www.jarvisk.com" />
+        <input name="ct" type="hidden" value="2097152" />
+        <input name="s" type="radio" checked="checked" />
+        <label for="s">搜索</label>
+    </div>
+</form>
+<!-- Baidu Search -->
 		<!-- /.input-group -->
 		</div>
 		<!-- Blog Categories Well -->
