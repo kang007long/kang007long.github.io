@@ -1130,4 +1130,4 @@ And there was light –
 
 【完】
 
-[原文地址](http://tieba.baidu.com/p/2830493553)
+<a href="http://tieba.baidu.com/p/2830493553" target="_blank">原文地址</a>
