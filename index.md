@@ -17,7 +17,7 @@ title: "Jarvis的博客"
 </h2>
 <hr>
 <p>
-{{ post.content | strip_html | truncate:500 }}
+{{ post.content | strip_html | truncate:600 }}
 </p>
 <a class="button-link" href="{{ post.url }}" title="查看全文">查看全文</a>
 <hr>
