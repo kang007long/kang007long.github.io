@@ -16,7 +16,10 @@ title: "Jarvis的博客"
   </div>
 </h2>
 <hr>
-{{ post.content }}
+<p>
+{{ post.content | strip_html | truncate:300 }}
+</p>
+<a class="button-link" href="{{ post.url }}" title="查看全文">read more</a>
 <hr>
 {% endfor %}
 <!-- Pager -->
