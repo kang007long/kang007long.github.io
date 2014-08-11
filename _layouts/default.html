@@ -78,20 +78,23 @@
 		</div>
 		<!-- Blog Sidebar Widgets Column -->
 		<div class="col-md-4">
-			<script>
-			  (function() {
-			    var cx = '009455914535462180176:a_1nnzx-4wu';
-			    var gcse = document.createElement('script');
-			    gcse.type = 'text/javascript';
-			    gcse.async = true;
-			    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-			        '//www.google.com/cse/cse.js?cx=' + cx;
-			    var s = document.getElementsByTagName('script')[0];
-			    s.parentNode.insertBefore(gcse, s);
-			  })();
-			</script>
-			<gcse:search></gcse:search>
-		
+		<!-- Blog Search Well -->
+		<div class="well">
+            <h4>
+              站内搜索
+            </h4>
+            <!--Baidu站内搜索开始-->
+			<form action="http://www.baidu.com/baidu">
+			<input type=text name=word>
+			<input type="submit" value="Baidu 搜索">
+			<input name=tn type=hidden value="bds">
+			<input name=cl type=hidden value="3">
+			<input name=ct type=hidden value="2097152">
+			<input name=si type=hidden value="www.jarvisk.com">
+			</form>
+			<!--Baidu站内搜索结束-->
+            <!-- /.input-group -->
+          </div>
 		<!-- Blog Categories Well -->
 		<div class="well">
 		<h4>
