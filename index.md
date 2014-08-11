@@ -17,9 +17,9 @@ title: "Jarvis的博客"
 </h2>
 <hr>
 <p>
-{{ post.content | strip_html | truncate:300 }}
+{{ post.content | strip_html | truncate:500 }}
 </p>
-<a class="button-link" href="{{ post.url }}" title="查看全文">read more</a>
+<a class="button-link" href="{{ post.url }}" title="查看全文">查看全文</a>
 <hr>
 {% endfor %}
 <!-- Pager -->
