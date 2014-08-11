@@ -83,7 +83,20 @@
             <h4>
               站内搜索
             </h4>
-            <form action="https://www.google.com/search" method="get">
+            <script>
+			  (function() {
+			    var cx = '009455914535462180176:a_1nnzx-4wu';
+			    var gcse = document.createElement('script');
+			    gcse.type = 'text/javascript';
+			    gcse.async = true;
+			    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+			        '//www.google.com/cse/cse.js?cx=' + cx;
+			    var s = document.getElementsByTagName('script')[0];
+			    s.parentNode.insertBefore(gcse, s);
+			  })();
+			</script>
+			<gcse:search></gcse:search>
+            <!-- <form action="https://www.google.com/search" method="get">
               <div class="input-group">
                 <input type="text" name="q" class="form-control">
 				<input type="hidden" name="ie" value="UTF-8" />
@@ -95,7 +108,7 @@
                   </button>
                 </span>
               </div>
-            </form>
+            </form> -->
             <!-- /.input-group -->
           </div>
 		<!-- Blog Categories Well -->
