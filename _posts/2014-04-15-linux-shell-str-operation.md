@@ -125,3 +125,5 @@ ${变量/查找/替换值} 一个“/”表示替换第一个，”//”表示�
 
 ###四：匹配
     if [  `echo $str | grep -e regexp`  ];then ...
+
+<a href="http://blog.csdn.net/zzxian/article/details/7601700" target="_blank">原文地址</a>
