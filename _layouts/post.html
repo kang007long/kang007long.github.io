@@ -16,6 +16,10 @@ layout: default
 <hr>
 
 {{ content }}
+{% if page.original %}
+<a href="{{ page.original }}" target="_blank">原文地址</a>
+{% endif %}
+<br/>
 <br/>
 <div style="margin-top:10px;margin-bottom:10px">
   {%if page.previous%}

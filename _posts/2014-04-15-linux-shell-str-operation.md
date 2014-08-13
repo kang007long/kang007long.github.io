@@ -3,6 +3,7 @@ layout: post
 title: 【转】linux shell 字符串操作（长度，查找，替换，匹配）详解
 category: "linux"
 tags: [linux,shell]
+original: http://blog.csdn.net/zzxian/article/details/7601700
 ---
 在做shell批处理程序时候，经常会涉及到字符串相关操作。有很多命令语句，如：awk,sed都可以做字符串各种操作。 其实shell内置一系列操作符号，可以达到类似效果，大家知道，使用内部操作符会省略启动外部程序等时间，因此速度会非常的快。
   
@@ -46,7 +47,7 @@ tags: [linux,shell]
 ${!varprefix*}与${!varprefix@}相似，可以通过变量名前缀字符，搜索已经定义的变量,无论是否为空值。
  
  <!--break-->
- 
+
 ###二、字符串操作（长度，读取，替换）
  
 <table class="table table-bordered table-striped table-condensed">
@@ -136,5 +137,3 @@ ${变量/查找/替换值} 一个“/”表示替换第一个，”//”表示�
 ###四：匹配
 
     if [  `echo $str | grep -e regexp`  ];then ...
-
-<a href="http://blog.csdn.net/zzxian/article/details/7601700" target="_blank">原文地址</a>

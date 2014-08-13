@@ -3,6 +3,7 @@ layout: post
 title: 【转】jstat的用法
 category: "java"
 tags: [java,jvm]
+original: http://www.51testing.com/html/92/77492-203728.html
 ---
 如何判断JVM是否存在内存问题呢？如何判断JVM垃圾回收是否正常？一般的top指令基本上满足不了这样的需求，因为它主要监控的是总体的系统资源，很难定位到java应用程序。
 
@@ -140,5 +141,3 @@ jstat -printcompilation pid:当前VM执行的信息。
     Compiled  Size  Type Method
          788     73    1 java/io/File <init>
          788     73    1 java/io/File <init>
-
-<a href="http://www.51testing.com/html/92/77492-203728.html" target="_blank">原文地址</a>
