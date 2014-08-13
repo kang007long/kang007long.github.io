@@ -45,6 +45,8 @@ tags: [linux,shell]
  
 ${!varprefix*}与${!varprefix@}相似，可以通过变量名前缀字符，搜索已经定义的变量,无论是否为空值。
  
+ <!--break-->
+ 
 ###二、字符串操作（长度，读取，替换）
  
 <table class="table table-bordered table-striped table-condensed">

@@ -41,6 +41,8 @@ GCT — 从应用程序启动到采样时用于垃圾回收的总时间(单位�
       S0     S1     E      O      P     YGC     YGCT    FGC    FGCT     GCT
      11.63   0.00   56.46  66.92  98.49 162    0.248    6      0.331    0.579
  
+<!--break-->
+
 **实例使用2：**(25444是java的进程号，ps -ef | grep java)
 
     [root@localhost bin]# jstat -gcutil 25444 1000 5

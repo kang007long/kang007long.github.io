@@ -54,7 +54,7 @@ Alexander Adell and Bertram Lupov were two of the faithful attendants of Multiva
 
 亚历山大·阿代尔与贝特伦·卢泊夫是Multivac的两个忠实的管理员。像任何其他人一样，他们知道在那台巨大的计算机数英里冰冷、闪烁、滴答作响的面庞后藏着什么。那些电子回路早已发展到任何个别的人都无法完全掌握的地步，但他们至少对它的大致蓝图有个基本的概念。
 
-
+<!--break-->
 
 Multivac was self-adjusting and self-correcting. It had to be, for nothing human could adjust and correct it quickly enough or even adequately enough. So Adell and Lupov attended the monstrous giant only lightly and superficially, yet as well as any men could. They fed it data, adjusted questions to its needs and translated the answers that were issued. Certainly they, and all others like them, were fully entitled to share in the glory that was Multivac's.
 
