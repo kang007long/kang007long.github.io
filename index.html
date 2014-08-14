@@ -16,10 +16,16 @@ title: "Jarvis的博客"
   </div>
 </h2>
 <hr>
-<p>
-{{ post.content | split:'<!--break-->' | first }}<br\>... ...
-</p>
-<a class="button-link" href="{{ post.url }}" title="查看全文">查看全文</a>
+{% if post.content contains '<!--break-->' %}
+  <p>
+  {{ post.content | split:'<!--break-->' | first }}<br\>... ...
+  </p>
+  <a class="button-link" href="{{ post.url }}" title="查看全文">查看全文</a>
+{% else %}
+  <p>
+  {{ post.content }}
+  </p>
+{% endif %}
 <hr>
 {% endfor %}
 <!-- Pager -->
