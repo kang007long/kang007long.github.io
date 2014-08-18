@@ -1,2 +1,2 @@
 paginate: 5
-pygments: true
+highlighter: pygments

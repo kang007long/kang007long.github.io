@@ -12,10 +12,10 @@ easymock-3.1
 easymockclassextension-3.1  
 powermock-easymock-junit-1.5  
 
- 
+
 创建一个待会儿被mock的类， Job
 
-{% highlight java %}
+{% highlight java linenos %}
     package com.jwu.mock;  
       
     import java.util.Random;  
@@ -42,7 +42,7 @@ powermock-easymock-junit-1.5
 
 再创建一个待会儿需要测试的类，该被测试的类需要用到被mock的类，Person
 
-{% highlight java %}
+{% highlight java linenos %}
     package com.jwu.mock;  
       
     public class Person {  
@@ -83,7 +83,7 @@ powermock-easymock-junit-1.5
 
 然后开始写UT类，这里演示了使用EasyMock去mock普通方法，和PowerMock去模拟静态方法：
 
-{% highlight java %}
+{% highlight java linenos %}
     package com.jwu.mock;  
       
     import static org.junit.Assert.assertEquals;  
