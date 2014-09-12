@@ -5,7 +5,7 @@ category: "linux"
 tags: [linux]
 ---
 
-# 更新jdk6到jdk7
+## 更新jdk6到jdk7
 
 -- 到http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html下载jdk7
 -- 上传到服务器

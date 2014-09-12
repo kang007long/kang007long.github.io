@@ -2,23 +2,31 @@
 <urlset>
     <url>
         <loc>http://www.jarvisk.com/archives.html</loc>
-        <lastmod>2014-08-26</lastmod>
+        <lastmod>2014-09-12</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>http://www.jarvisk.com/categories.html</loc>
-        <lastmod>2014-08-26</lastmod>
+        <lastmod>2014-09-12</lastmod>
         <priority>0.8</priority>
     </url>
     <url>
         <loc>http://www.jarvisk.com/index.html</loc>
-        <lastmod>2014-08-26</lastmod>
+        <lastmod>2014-09-12</lastmod>
     </url>
     <url>
         <loc>http://www.jarvisk.com/page2/</loc>
-        <lastmod>2014-08-26</lastmod>
+        <lastmod>2014-09-12</lastmod>
     </url>
 
+    <url>
+        <loc>http://www.jarvisk.com/linux/2014/09/11/install-java7.html</loc>
+        <lastmod>2014-09-12</lastmod>
+    </url>
+    <url>
+        <loc>http://www.jarvisk.com/linux/2014/09/09/upgrade-confluence.html</loc>
+        <lastmod>2014-09-12</lastmod>
+    </url>
     <url>
         <loc>http://www.jarvisk.com/scifi/2014/08/11/the-last-question.html</loc>
         <lastmod>2014-08-26</lastmod>

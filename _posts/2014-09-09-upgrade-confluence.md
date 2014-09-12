@@ -5,9 +5,11 @@ category: "linux"
 tags: [linux]
 ---
 
-# 升级GLIBC2.3.4到2.4
+## 升级GLIBC2.3.4到2.4
 参考：
+
 http://blog.csdn.net/heavenying/article/details/4122887
+
 http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
 
 -- 下载glibc
@@ -68,7 +70,9 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     Copyright (C) 2006 Free Software Foundation, Inc.
     ....
 
-# 更新jdk6到jdk7
+<!--break-->
+
+## 更新jdk6到jdk7
 
 -- 到http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html下载jdk7
 -- 上传到服务器
@@ -91,9 +95,10 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     Java HotSpot(TM) 64-Bit Server VM (build 24.65-b04, mixed mode)
 
 
-# 更新confluence3.5.4到5.0.3
+## 更新confluence3.5.4到5.0.3
 
 -- 下载atlassian-confluence-5.0.3.zip
+
     http://downloads.atlassian.com/software/confluence/downloads/atlassian-confluence-5.0.3.zip
 
 -- conflu_home移出来
@@ -189,7 +194,7 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
  等待confluence更新数据库结构和索引，登陆验证功能正常
 
 
-# 更新confluence5.0.3到5.1.4
+## 更新confluence5.0.3到5.1.4
 
 -- 停止confluence-5.0.3
     
