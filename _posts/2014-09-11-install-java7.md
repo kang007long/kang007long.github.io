@@ -3,6 +3,7 @@ layout: post
 title: 更新jdk6到jdk7
 category: "linux"
 tags: [linux]
+id: 1121
 ---
 
 ## 更新jdk6到jdk7
