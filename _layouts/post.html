@@ -43,7 +43,7 @@ layout: default
 <!--高速版，加载速度快，使用前需测试页面的兼容性-->
 <div id="SOHUCS"></div>
 <script>
-  (function(){
+  /*(function(){
     var appid = 'cyrtXOWCO',
     conf = 'prod_8bbb60568c4e89df0365d6c3ca21dc2e';
     var doc = document,
@@ -54,5 +54,29 @@ layout: default
     s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
     h.insertBefore(s,h.firstChild);
     window.SCS_NO_IFRAME = true;
-  })()
+  })()*/
+	//document.getElementById('SOHUCS').setAttribute('sid',entityId); 
+	 var category = typeof category != 'undefined' ? category :'';                 
+	 var _config = {
+		submit_no_jump:true,
+		jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
+		varName: entityId, 
+		customSohu: true,
+		cyanTitle : '我来说两句',
+		pageSize: 3,
+		hideHotNews: true
+	};
+	window.SCS_NO_IFRAME = true;
+	
+	(function(){
+		var appid = "cyrtXOWCO";
+		var conf= "prod_8bbb60568c4e89df0365d6c3ca21dc2e";
+		var doc = document,
+		s = doc.createElement('script'),
+		h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+		s.type = 'text/javascript';
+		s.charset = 'utf-8';
+		s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+		h.insertBefore(s,h.firstChild);    
+	})();
 </script>        
