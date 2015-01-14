@@ -59,11 +59,11 @@ layout: default
 	 var category = typeof category != 'undefined' ? category :'';                 
 	 var _config = {
 		submit_no_jump:true,
-		jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
+		//jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
 		varName: {{ page.sid }}, 
-		customSohu: true,
+		customSohu: false,
 		cyanTitle : '我来说两句',
-		pageSize: 3,
+		pageSize: 10,
 		hideHotNews: true
 	};
 	window.SCS_NO_IFRAME = true;
