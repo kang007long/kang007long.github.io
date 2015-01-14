@@ -55,12 +55,12 @@ layout: default
     h.insertBefore(s,h.firstChild);
     window.SCS_NO_IFRAME = true;
   })()*/
-	document.getElementById('SOHUCS').setAttribute('sid',{{ page.id }}); 
+	document.getElementById('SOHUCS').setAttribute('sid',{{ page.sid }}); 
 	 var category = typeof category != 'undefined' ? category :'';                 
 	 var _config = {
 		submit_no_jump:true,
 		jumpUrl: 'http://pinglun.sohu.com/s[topicId].html',
-		varName: {{ page.id }}, 
+		varName: {{ page.sid }}, 
 		customSohu: true,
 		cyanTitle : '我来说两句',
 		pageSize: 3,
