@@ -1,4 +1,9 @@
 function FindProxyForURL(url, host) {
+
+	if (shExpMatch(host, "tehui.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+
 	if (shExpMatch(host, "*.auto.sohu.com")) {
         return 'PROXY 10.16.5.37:80';
     }
