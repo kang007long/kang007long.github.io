@@ -12,11 +12,11 @@ function FindProxyForURL(url, host) {
         return 'PROXY 10.16.5.37:80';
     }
 	
-	if (shExpMatch(url, "http://m[12345].auto.itc.cn/car/theme/newdb/(*)")) {
+	if (shExpMatch(url, "http://m*.auto.itc.cn/car/theme/newdb/*")) {
         return 'PROXY 10.16.5.37:80';
     }
 	
-	if (shExpMatch(url, "http://m[12345].auto.itc.cn/car/theme/wapdb/(*)")) {
+	if (shExpMatch(url, "http://m*.auto.itc.cn/car/theme/wapdb/*")) {
         return 'PROXY 10.16.5.37:80';
     }
 	
