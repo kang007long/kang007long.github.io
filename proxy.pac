@@ -1,6 +1,6 @@
 function FindProxyForURL(url, host) {
 
-	if (shExpMatch(url, "http://(i|s|m|db|saa|iploc|dealer|ask|tehui|jiangjia|fans|beijing|beijingchezhan|mobile|tousu).auto.sohu.com/*")) {
+	if (shExpMatch(host, "(tehui|db).auto.sohu.com")) {
         return 'DIRECT';
     }
 	
