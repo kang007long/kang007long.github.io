@@ -1,5 +1,6 @@
 function FindProxyForURL(url, host) {
 
+	
 	if (shExpMatch(host, "tehui.auto.sohu.com")) {
         return 'DIRECT';
     }

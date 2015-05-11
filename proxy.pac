@@ -1,6 +1,48 @@
 function FindProxyForURL(url, host) {
 
-	if (shExpMatch(host, "(tehui|db).auto.sohu.com")) {
+	if (shExpMatch(host, "db.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "i.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "s.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "m.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "saa.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "iploc.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "dealer.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "ask.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "jiangjia.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "fans.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "beijing.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "beijingchezhan.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "mobile.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "tousu.auto.sohu.com")) {
+        return 'DIRECT';
+    }
+	if (shExpMatch(host, "tehui.auto.sohu.com")) {
         return 'DIRECT';
     }
 	
