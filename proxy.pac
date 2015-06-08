@@ -44,6 +44,9 @@ function FindProxyForURL(url, host) {
     }
 	if (shExpMatch(host, "tehui.auto.sohu.com")) {
         return 'DIRECT';
+    }	
+	if (shExpMatch(host, "goche.auto.sohu.com")) {
+        return 'DIRECT';
     }
 	
 	if (shExpMatch(url, "http://(mp).auto.sohu.com/*")) {
