@@ -28,3 +28,6 @@ sid: 1121
     Java(TM) SE Runtime Environment (build 1.7.0_67-b01)
     Java HotSpot(TM) 64-Bit Server VM (build 24.65-b04, mixed mode)
 
+## 安装jdk8
+-- 下载
+    $ wget --no-cookies --no-check-certificate --header "Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/8u171-b11/512cd62ec5174c3487ac17c61aaa89e8/jdk-8u171-linux-x64.rpm
