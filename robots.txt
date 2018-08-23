@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: http://www.jarvisk.com/sitemap.xml
+Sitemap: http://www.bufan.tech/sitemap.xml
