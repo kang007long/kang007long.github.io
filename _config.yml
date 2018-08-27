@@ -1,2 +1,3 @@
 paginate: 5
 highlighter: pygments
+theme: jekyll-theme-midnight
