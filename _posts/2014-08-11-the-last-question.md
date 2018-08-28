@@ -24,7 +24,7 @@ By Isaac Asimov
 阿西莫夫
 
 This is by far my favorite story of all those I have written.
-
+<!--break-->
 After all, I undertook to tell several trillion years of human history in the space of a short story and I leave it to you as to how well I succeeded. I also undertook another task, but I won't tell you what that was lest l spoil the story for you.
 
 这是目前我所写过所有的故事中我最喜爱的一篇。
@@ -42,8 +42,6 @@ The last question was asked for the first time, half in jest, on May 21, 2061, a
 Alexander Adell and Bertram Lupov were two of the faithful attendants of Multivac. As well as any human beings could, they knew what lay behind the cold, clicking, flashing face -- miles and miles of face -- of that giant computer. They had at least a vague notion of the general plan of relays and circuits that had long since grown past the point where any single human could possibly have a firm grasp of the whole.
 
 亚历山大·阿代尔与贝特伦·卢泊夫是Multivac的两个忠实的管理员。像任何其他人一样，他们知道在那台巨大的计算机数英里冰冷、闪烁、滴答作响的面庞后藏着什么。那些电子回路早已发展到任何个别的人都无法完全掌握的地步，但他们至少对它的大致蓝图有个基本的概念。
-
-<!--break-->
 
 Multivac was self-adjusting and self-correcting. It had to be, for nothing human could adjust and correct it quickly enough or even adequately enough. So Adell and Lupov attended the monstrous giant only lightly and superficially, yet as well as any men could. They fed it data, adjusted questions to its needs and translated the answers that were issued. Certainly they, and all others like them, were fully entitled to share in the glory that was Multivac's.
 

@@ -28,7 +28,7 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     [@wendah2 usr]# cp -a bin bin.old
     [@wendah2 usr]# cp -a sbin sbin.old
     [@wendah2 usr]# cp -a include include.old
-
+<!--break-->
 -- 解压安装glibc
 
     [@wendah2 glibc]# tar -xzvf glibc-2.4.tar.gz
@@ -69,8 +69,6 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     GNU C Library development release version 2.4, by Roland McGrath et al.
     Copyright (C) 2006 Free Software Foundation, Inc.
     ....
-
-<!--break-->
 
 ## 更新jdk6到jdk7
 

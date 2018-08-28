@@ -21,7 +21,7 @@ sid: 1121
     [@wendah2 java]# rpm -e --nodeps jdk-1.6.0_13-fcs
 
 -- 安装jdk7
-
+<!--break-->
     [@wendah2 java]# rpm -ivh jdk-7u67-linux-x64.rpm
     [@wendah2 java]# java -version
     java version "1.7.0_67"

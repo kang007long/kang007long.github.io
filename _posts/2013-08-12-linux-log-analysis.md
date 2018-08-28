@@ -23,7 +23,7 @@ original: http://blog.csdn.net/jinxfei/article/details/4562559
 
 作用：该指令，可以将文件的内容，从前向后，每次一屏，打印到终端屏幕上。
 用法：
-
+<!--break-->
     more filename
 
 显示一屏信息后，' 空格' 向下翻一屏，' 回车' 向下翻一行，' q ' 退出。

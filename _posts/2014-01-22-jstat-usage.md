@@ -24,7 +24,7 @@ Options — 选项，我们一般使用 -gcutil 查看gc情况
 vmid    — VM的进程号，即当前运行的java进程号  
 interval– 间隔时间，单位为秒或者毫秒  
 count   — 打印次数，如果缺省则打印无数次  
- 
+<!--break--> 
 S0  — Heap上的 Survivor space 0 区已使用空间的百分比  
 S1  — Heap上的 Survivor space 1 区已使用空间的百分比  
 E   — Heap上的 Eden space 区已使用空间的百分比  

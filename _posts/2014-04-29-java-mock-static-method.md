@@ -38,7 +38,7 @@ powermock-easymock-junit-1.5
       
     }  
 {% endhighlight %}
- 
+<!--break--> 
 
 再创建一个待会儿需要测试的类，该被测试的类需要用到被mock的类，Person
 

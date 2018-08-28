@@ -24,7 +24,7 @@ slow log 是 MySQL 根据 SQL 语句的执行时间设定，写入的一个文�
 
     /usr/sbin/mysqld --basedir=/usr --datadir=/var/lib/mysql --user=mysql --pid-file=/var/run/mysqld/mysqld.pid --skip-locking --port=3306 --socket=/var/run/mysqld/mysqld.sock --log-slow-queries=/var/log/mysql/slow.log
 
- 
+ <!--break-->
 
 ####**explain来了解SQL执行的状态。**
 

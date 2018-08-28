@@ -23,7 +23,7 @@ original: http://blog.csdn.net/zzxian/article/details/7601700
 	<tr><td>${!varprefix*}</td><td>匹配之前所有以varprefix开头进行声明的变量</td></tr>
 	<tr><td>${!varprefix@}</td><td>匹配之前所有以varprefix开头进行声明的变量</td></tr>
 </table>
-
+<!--break-->
 
 加入了“*”  的意思是： 当然, 如果变量var已经被设置的话, 那么其值就是$var.
 
@@ -45,8 +45,6 @@ original: http://blog.csdn.net/zzxian/article/details/7601700
     var1 var2 var3
  
 ${!varprefix*}与${!varprefix@}相似，可以通过变量名前缀字符，搜索已经定义的变量,无论是否为空值。
- 
- <!--break-->
 
 ###二、字符串操作（长度，读取，替换）
  
