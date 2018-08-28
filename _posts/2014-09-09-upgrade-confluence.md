@@ -28,6 +28,7 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     [@wendah2 usr]# cp -a bin bin.old
     [@wendah2 usr]# cp -a sbin sbin.old
     [@wendah2 usr]# cp -a include include.old
+    
 <!--break-->
 
 -- 解压安装glibc
