@@ -29,6 +29,7 @@ http://www.ibm.com/developerworks/cn/linux/l-cn-glibc-upd/
     [@wendah2 usr]# cp -a sbin sbin.old
     [@wendah2 usr]# cp -a include include.old
 <!--break-->
+
 -- 解压安装glibc
 
     [@wendah2 glibc]# tar -xzvf glibc-2.4.tar.gz
